@@ -8,8 +8,9 @@ body{
     font-size: var(--font-size-medium);
     font-weight: var(--font-weight-regular);
 }
-section > h6{
+h6{
     font-family: var(--font-family-title);
+    font-family: var(--font-weight-bold);
 }
 a{
     color: var(--text-color);
@@ -22,9 +23,6 @@ a{
 }
 .section-tagline{
     color: var(--color-primary)
-}
-h1{
-    font-weight: var(--font-weight-bold);
 }
 :root{
     --color-primary: #d73953;
