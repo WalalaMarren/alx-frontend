@@ -90,7 +90,9 @@ a:active{
     display: var(--nav-item-display);
     margin: var(--nav-item-margin);
 }
-
+.nav .nav-link{
+    display: block;
+}
 .nav .nav-link:hover{
     color: var(--nav-item-link-hover);
 }
