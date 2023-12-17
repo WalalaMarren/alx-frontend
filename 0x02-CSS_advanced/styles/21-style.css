@@ -135,7 +135,7 @@ ul.row{
 }
 .col-1-3,
 .col-1-2 {
-    float: none; 
+    clear: both; 
     padding: 0;
 }
 :root{
