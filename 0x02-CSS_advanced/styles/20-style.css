@@ -129,6 +129,14 @@ ul.row{
     display: table;
     clear: both;
 }
+[class^="col-"] {
+    float: left;
+    padding: 0.5rem;
+}
+.col-1-3, .col-1-2 {
+    float: none;
+    padding: 0;
+}
 :root{
     --color-primary: #d73953;
     --color-black: #090909;
