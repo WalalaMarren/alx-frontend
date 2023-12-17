@@ -73,6 +73,9 @@ a:active{
     text-transform: var(--section-tagline-transform);
     font-weight: var(--font-weight-bold);
 }
+.footer{
+    padding: var(--footer-padding);
+}
 :root{
     --color-primary: #d73953;
     --color-black: #090909;
