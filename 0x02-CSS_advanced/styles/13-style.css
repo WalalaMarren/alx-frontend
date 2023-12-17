@@ -19,6 +19,9 @@ a{
     color: var(--text-color);
     text-decoration: none;
 }
+a[href]:link{
+    font-style: italic;
+}
 a[href]:visited{
     font-style: italic;
 }
