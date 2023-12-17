@@ -90,6 +90,10 @@ a:active{
     display: var(--nav-item-display);
     margin: var(--nav-item-margin);
 }
+
+.nav .nav-link:hover{
+    color: var(--nav-item-link-hover);
+}
 .footer{
     padding: var(--footer-padding);
 }
