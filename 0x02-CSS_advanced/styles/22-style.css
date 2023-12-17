@@ -129,6 +129,11 @@ ul.row{
     float: left;
     padding: 0.5rem;
 }
+[data-section-theme="dark"] {
+    --text-color: var(--color-white);
+    --section-title-color: var(--color-white);
+    background: var(--color-black);
+}
 :root{
     --color-primary: #d73953;
     --color-black: #090909;
@@ -167,6 +172,4 @@ ul.row{
     --nav-item-margin: 0 3em 0 0;
     --nav-item-link-hover: var(--color-primary);
     --section-tagline-margin: 0;
-    --text-color: var(--color-white)
-    --section-title-color: var(--color-white);
 }
