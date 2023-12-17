@@ -44,6 +44,13 @@ a:active{
 .section{
     padding: var(--section-padding);
 }
+.section-body{
+    padding: var(--section-body-padding);
+}
+.section-footer{
+    text-align: var(--section-footer-align);
+    padding: var(--section-footer-padding);
+}
 .section-header{
     text-align: var(--section-header-align);
     padding: var(--section-header-padding);
