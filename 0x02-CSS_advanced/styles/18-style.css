@@ -92,7 +92,7 @@ a:active{
 }
 .nav .nav-link{
     display: block;
-    padding: 0.5rem 0.5rem 1rem 1rem;
+    padding: calc(0.5 * var(--section-padding) var(--section-padding))
 }
 .nav .nav-link:hover{
     color: var(--nav-item-link-hover);
