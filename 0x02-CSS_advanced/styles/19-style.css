@@ -108,6 +108,11 @@ ul .row{
     font-size: var(--font-size-small);
     color: var(--text-color);
 }
+.col-1-2{
+    width: 50%;
+    float: left;
+    padding: 0.5rem;
+}
 .footer ul{
     text-align: right;
 }
