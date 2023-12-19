@@ -213,6 +213,10 @@ nav .nav-link::before{
     width: 0;
     height: 0.2rem;
 }
+nav .nav-item:hover .nav-link::before {
+    background-color: var(--color-primary);
+    width: 100%;
+}
 :root{
     --color-primary: #d73953;
     --color-black: #090909;
